@@ -23,7 +23,7 @@
     align-content: center;
     border-radius: 10%;
     margin: 0vmin 1vmin;
-    padding: 0vmin 1vmin;
+    padding: 0vmin 5vmin;
 }
 
 .cadastroMeta {
@@ -68,7 +68,7 @@
 }
 
 .categoria {
-    margin: 40% 0% 20% 0%;
+    margin: 10% 0% 20% 0%;
 }
 
 .descTransacao {
@@ -90,4 +90,148 @@
 
 .valorTransacao {
     color: #113F4C;
+}
+
+.navbar {
+    display: flex;
+    flex-direction: row;
+}
+
+img {
+    width: 36px;
+}
+
+
+@media (min-width: 300px) {
+
+    .back img {
+        width: 36px;
+        margin: 5vmin
+    }
+    .container {
+        background-color: white;
+    }
+
+    .tituloPagina h1 {
+        font-size: 15vmin;
+        margin: 5vmin 0vmin;
+    }
+
+    .metas {
+        display: flex;
+        flex-direction: row;
+    }
+
+    .metas > div {
+        align-content: center;
+        border-radius: 5%;
+        margin: 0vmin 1vmin;
+        padding: 0vmin 1vmin;
+    }
+
+    .cadastroMeta {
+        background-color: #8CA0A7;
+        align-content: center;
+        /* margin: 10vmin; */
+    }
+
+    .cadastroMeta h1 {
+        align-items: center;
+        align-content: center;
+        color: white;
+    }
+
+    .metaCadastrada {
+        background-color: #113F4C;
+    }
+
+    .metaCadastrada h1, h2, h3 {
+        font-size: 10vmin;
+        padding: 1vmin 1vmin;
+    }
+
+    .cadastroMeta h1 {
+        font-size: 25vmin;
+        padding: 10vmin;
+    }
+
+    .metaCadastrada h1, h2, h3 {
+        font-size: 5vmin;
+        margin: 1vmin;
+    }
+
+    .metaCadastrada > div {
+        font-size: 10vmin;
+    }
+
+    .tituloMeta, .valorDesejado {
+        margin: 1vmin;
+        padding: 2vmin;
+        color: white;
+    }
+
+    .categoria {
+        margin: 40% 0% 20% 0%;
+        flex-wrap: wrap;
+    }
+
+    .tituloCategoria {
+        /* margin: 1vmin; */
+        padding: 1.5vmin;
+    }
+
+    .descTransacao {
+        display: flex;
+        flex-direction: row;
+    }
+
+    .tituloCategoria, .valorAtual {
+        color: #8CA0A7;
+    }
+
+    .tipoTransacao {
+        color: black;
+        margin: 0 40% 0 0;
+    }
+
+    .valorTransacao {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-end;
+        color: #113F4C;
+    }
+
+    .navbar {
+        display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    align-content: center;
+    }
+
+    .acao h1 {
+        font-size: 5vmin;
+    }
+
+    .acao {
+        display: flex;
+        flex-wrap: nowrap;
+        flex-direction: column;
+        align-items: center;
+        align-content: center;
+    }
+
+    .acao img {
+        width: 36px;
+        height: 36px;
+    }
+
+    .acaoCadastrar {
+        border-radius: 50%;
+        background-color: #113F4C;
+    }
+
+    .acaoCadastrar h1 {
+        color: white;
+        margin: 2.5vmin;
+    }
 }
