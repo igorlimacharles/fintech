@@ -11,9 +11,3 @@
 .titulo h1 {
     font-size: 30vmin;
 }
-
-@media (max-width: 1000px) {
-    .container {
-        background-color: aqua;
-    }
-}
