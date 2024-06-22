@@ -1,0 +1,19 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    padding: 10% auto;
+}
+
+.titulo h1 {
+    font-size: 30vmin;
+}
+
+@media (max-width: 1000px) {
+    .container {
+        background-color: aqua;
+    }
+}

@@ -1,0 +1,15 @@
+* {
+    margin: 0;
+    padding: 0;
+    flex-direction: column;
+}
+
+@media (min-width: 300px) {
+    .container {
+        background-color: aqua;
+    }
+
+    .tituloPagina {
+        font-size: 10vmin;
+    }
+}
