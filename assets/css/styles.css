@@ -82,9 +82,9 @@
     justify-content: space-between;
 }
 
-/* .tituloCategoria, .valorAtual {
+.tituloCategoria, .valorAtual {
     color: #8CA0A7;
-} */
+}
 
 .tipoTransacao {
     display: contents;
