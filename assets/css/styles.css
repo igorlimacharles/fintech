@@ -74,6 +74,8 @@
 .descTransacao {
     display: flex;
     flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
 }
 
 .descTransacao > div {
@@ -85,6 +87,7 @@
 }
 
 .tipoTransacao {
+    display: contents;
     color: black;
 }
 
@@ -95,6 +98,15 @@
 .navbar {
     display: flex;
     flex-direction: row;
+    position: fixed;
+}
+
+.acaoCadastrar {
+    background-color: #113F4C;
+    border-radius: 50%;
+    color: white;
+    padding: 3vmin;
+    margin: 2vmin
 }
 
 img {
@@ -102,7 +114,7 @@ img {
 }
 
 
-@media (min-width: 300px) {
+/* @media (min-width: 300px) {
 
     .back img {
         width: 36px;
@@ -133,7 +145,7 @@ img {
         background-color: #8CA0A7;
         align-content: center;
         /* margin: 10vmin; */
-    }
+/* }
 
     .cadastroMeta h1 {
         align-items: center;
@@ -177,8 +189,8 @@ img {
 
     .tituloCategoria {
         /* margin: 1vmin; */
-        padding: 1.5vmin;
-    }
+        /* padding: 1.5vmin; */
+ /*   }
 
     .descTransacao {
         display: flex;
