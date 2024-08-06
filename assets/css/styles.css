@@ -9,9 +9,13 @@
     width: 100vw;
 }
 
+.back {
+    padding: 5vmin 2vmin;
+}
+
 .tituloPagina h1 {
     font-size: 15vmin;
-    margin: 15vmin 0vmin;
+    padding: 5vmin 2vmin;
 }
 
 .metas {
@@ -109,7 +113,7 @@
     margin: 2vmin
 }
 
-img {
+.acao img {
     width: 36px;
 }
 
@@ -246,4 +250,77 @@ img {
         color: white;
         margin: 2.5vmin;
     }
+}
+
+*/
+
+
+/*PERFIL*/
+
+/* CSS */
+.infos {
+    margin: 10vmin 0vmin 30vmin;
+    padding: 5vmin;
+}
+
+.profilePic img {
+    width: 128px;
+}
+
+.profilePic, .infos h1, h2, h3 {
+    margin: 3vmin
+}
+
+.profilePic {
+    padding: 5vmin 2vmin;
+    margin: 10vmin 0vmin;
+}
+
+/*CADASTRAR ITEM*/
+label {
+    font-size: 10vmin;
+}
+
+.form-check input, .form-control input {
+    border-color: #113F4C;
+}
+
+#categoria, #valor {
+    border: 2px solid #113F4C; /* 2px de espessura, sólida, cor cinza */
+  }
+
+/* #categoria {
+    color: #333;
+    background-color: #f0f0f0;
+    border: 1px solid #ccc;
+    padding: 10px;
+    font-size: 16px;
+  }
+  
+  #categoria::placeholder {
+    color: #aaa;
+  } */
+
+.form-check input:checked {
+    background-color: #113F4C;
+    border-color: #113F4C;
+}
+
+.form-group {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin: 0vmin 0vmin 5vmin;
+}
+
+.btn.btn-primary {
+    background-color: #113F4C;
+    border-radius: 50%;
+    border-color: #113F4C;
+    padding: 5vmin;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
 }
