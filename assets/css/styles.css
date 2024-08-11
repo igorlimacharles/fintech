@@ -14,8 +14,8 @@
 }
 
 .tituloPagina h1 {
-    font-size: 15vmin;
-    padding: 5vmin 2vmin;
+    font-size: 12.5vmin;
+    padding: 2vmin 3vmin 2vmin
 }
 
 .metas {
@@ -105,159 +105,10 @@
     position: fixed;
 }
 
-.acaoCadastrar {
-    background-color: #113F4C;
-    border-radius: 50%;
-    color: white;
-    padding: 3vmin;
-    margin: 2vmin
-}
-
-.acao img {
-    width: 36px;
-}
-
-
-/* @media (min-width: 300px) {
-
-    .back img {
-        width: 36px;
-        margin: 5vmin
-    }
-    .container {
-        background-color: white;
-    }
-
-    .tituloPagina h1 {
-        font-size: 15vmin;
-        margin: 5vmin 0vmin;
-    }
-
-    .metas {
-        display: flex;
-        flex-direction: row;
-    }
-
-    .metas > div {
-        align-content: center;
-        border-radius: 5%;
-        margin: 0vmin 1vmin;
-        padding: 0vmin 1vmin;
-    }
-
-    .cadastroMeta {
-        background-color: #8CA0A7;
-        align-content: center;
-        /* margin: 10vmin; */
-/* }
-
-    .cadastroMeta h1 {
-        align-items: center;
-        align-content: center;
-        color: white;
-    }
-
-    .metaCadastrada {
-        background-color: #113F4C;
-    }
-
-    .metaCadastrada h1, h2, h3 {
-        font-size: 10vmin;
-        padding: 1vmin 1vmin;
-    }
-
-    .cadastroMeta h1 {
-        font-size: 25vmin;
-        padding: 10vmin;
-    }
-
-    .metaCadastrada h1, h2, h3 {
-        font-size: 5vmin;
-        margin: 1vmin;
-    }
-
-    .metaCadastrada > div {
-        font-size: 10vmin;
-    }
-
-    .tituloMeta, .valorDesejado {
-        margin: 1vmin;
-        padding: 2vmin;
-        color: white;
-    }
-
-    .categoria {
-        margin: 40% 0% 20% 0%;
-        flex-wrap: wrap;
-    }
-
-    .tituloCategoria {
-        /* margin: 1vmin; */
-        /* padding: 1.5vmin; */
- /*   }
-
-    .descTransacao {
-        display: flex;
-        flex-direction: row;
-    }
-
-    .tituloCategoria, .valorAtual {
-        color: #8CA0A7;
-    }
-
-    .tipoTransacao {
-        color: black;
-        margin: 0 40% 0 0;
-    }
-
-    .valorTransacao {
-        display: flex;
-        flex-direction: column;
-        align-items: flex-end;
-        color: #113F4C;
-    }
-
-    .navbar {
-        display: flex;
-    flex-wrap: nowrap;
-    flex-direction: row;
-    align-content: center;
-    }
-
-    .acao h1 {
-        font-size: 5vmin;
-    }
-
-    .acao {
-        display: flex;
-        flex-wrap: nowrap;
-        flex-direction: column;
-        align-items: center;
-        align-content: center;
-    }
-
-    .acao img {
-        width: 36px;
-        height: 36px;
-    }
-
-    .acaoCadastrar {
-        border-radius: 50%;
-        background-color: #113F4C;
-    }
-
-    .acaoCadastrar h1 {
-        color: white;
-        margin: 2.5vmin;
-    }
-}
-
-*/
 
 
 /*PERFIL*/
 
-/* CSS */
 .infos {
     margin: 10vmin 0vmin 30vmin;
     padding: 5vmin;
@@ -323,4 +174,162 @@ label {
 .form {
     display: flex;
     flex-direction: column;
+}
+
+
+/*LANÇAMENTOS*/
+
+.lancamento img {
+    width: 45px;
+}
+
+.align-items-center {
+    padding: 1vmin;
+    margin: 1vmin
+}
+.ml-3 {
+    margin: 1vmin;
+}
+
+.montant {
+    font-weight: 500;
+    color: #113F4C;
+}
+
+.mb-0 {
+    font-weight: 500;
+}
+
+.list-group {
+    margin: 0vmin 2vmin;
+}
+/*HOMESCREEN*/
+
+.welcome-box {
+    background-color: #113F4C;
+}
+
+.balance-box {
+    margin: 10vmin 2vmin;
+    padding: 10vmin 5vmin;
+    border:  1px solid #113F4C;;
+}
+
+.custom-line {
+    border: none;
+    height: 1px; 
+    background-color: #113F4C; 
+    margin: 20px 0; 
+}
+
+.transactions-box {
+    padding: 2vmin;
+}
+
+.balance, .extract {
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between;
+}
+
+.balance-link {
+    color: #113F4C;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.balance-link:hover {
+    text-decoration: underline;
+}
+
+/* Estilo do link na data de transações */
+.date-link {
+    color: #113F4C;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.date-link:hover {
+    text-decoration: underline;
+}
+
+/*LOGIN*/
+
+.btn.btn-primary-2 {
+    background-color: #113F4C;
+    border-color: #113F4C;
+}
+
+.btn.btn-sg, .btn-sg-2 {
+    color: white;
+    font-weight: 500;
+    padding: 3vmin;
+}
+
+.btn.btn-lg {
+    color: black;
+    font-weight: 500;
+    padding: 3vmin;
+}
+
+.btn-outline-secondary {
+    border-radius: 0.5rem;
+}
+
+/*CADASTRO*/
+
+body {
+    background-color: #f8f9fa;
+    font-family: 'Arial', sans-serif;
+}
+
+.cadastro-container {
+    background-color: #f8f9fa;
+}
+
+.cadastro-header .cadastro-title {
+    font-weight: bold;
+    font-size: 1.5rem;
+    color: #000;
+}
+
+.cadastro-label {
+    font-size: 1rem;
+    color: #000;
+}
+
+.cadastro-btn {
+    background-color: #004085;
+    border-color: #004085;
+    border-radius: 0.5rem;
+}
+
+.cadastro-input {
+    border-radius: 0.5rem;
+    border: 2px solid #113F4C; /* Cor da borda */
+}
+
+.cadastro-input:focus {
+    box-shadow: 0 0 0 0.25rem rgba(17, 63, 76, 0.25); /* Sombra ao focar no input */
+    border-color: #113F4C; /* Mantém a cor da borda ao focar */
+}
+
+.cadastro-link {
+    font-size: 0.875rem;
+    color: #6c757d;
+}
+
+.cadastro-link:hover {
+    text-decoration: underline;
+    color: #495057;
+}
+
+/*SOME ADJUSTS*/
+
+.bi-add {
+    border-radius: 100%;
+    background-color: #113F4C;
+    padding: 4vmin;
+    margin: 1vmin;
+    color: white;
 }
