@@ -1,0 +1,86 @@
+body {
+    background-color: #f8f9fa;
+    font-family: 'Arial', sans-serif;
+}
+
+.metas-back {
+    font-size: 1.25rem;
+    color: #113F4C; /* Cor da seta para voltar */
+    text-decoration: none;
+}
+
+.metas-title {
+    font-size: 1.25rem;
+    font-weight: bold;
+    color: #000;
+}
+
+.meta-card {
+    width: 150px;
+    height: 150px;
+    background-color: #B0BEC5; /* Cor do botão adicionar meta */
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.meta-add {
+    font-size: 2.5rem;
+    color: #FFFFFF; /* Cor do sinal de mais */
+}
+
+.meta-card-completed {
+    width: 150px;
+    height: 150px;
+    background-color: #113F4C; /* Cor da meta Emergência */
+    border-radius: 10px;
+    color: #FFFFFF;
+    padding: 15px;
+}
+
+.meta-label {
+    font-size: 1rem;
+    margin: 0;
+    font-weight: bold;
+}
+
+.meta-value {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin: 5px 0;
+}
+
+.meta-goal {
+    font-size: 0.875rem;
+    margin: 0;
+}
+
+.meta-detail-label {
+    font-size: 0.875rem;
+    font-weight: bold;
+    color: #B0BEC5; /* Cor da etiqueta Emergência */
+}
+
+.meta-transaction {
+    font-size: 1rem;
+    font-weight: bold;
+    color: #000;
+}
+
+.meta-amount {
+    font-size: 1rem;
+    font-weight: bold;
+    color: #113F4C; /* Cor do valor do débito */
+}
+
+.meta-icon {
+    width: 24px;
+    height: 24px;
+}
+
+.meta-nav-text {
+    font-size: 0.75rem;
+    color: #6c757d;
+    margin: 0;
+}
